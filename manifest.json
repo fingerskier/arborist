@@ -1,0 +1,17 @@
+{
+	"name": "Arborist",
+	"description": "Tree editor.",
+	"version": "0.1",
+	"manifest_version": 2,
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+	"permissions": [
+		"alarms",
+		"serial",
+		"storage"
+	],
+	"icons": { "16": "icon.jpg", "128": "icon.jpg" }
+}
